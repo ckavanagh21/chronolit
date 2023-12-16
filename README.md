@@ -1,3 +1,3 @@
-## ChronoLit: ChronoLit: A Model for Estimating Author's Birth Year from Literary Texts
+## ChronoLit: A Model for Estimating Author's Birth Year from Literary Texts
 
 Languages evolve. Two texts from the same language expressing the same idea may look drastically different if they are written 500 years apart. As languages evolve, not only does vocabulary change, but so do grammar, syntax, figures of speech, and more. In this project, we pull texts from Project Gutenberg to create and test several models that estimate the year an author was born based on the type of text used in their published written literature. After experimenting with both standard (SVM, KNN, Random Forest, Gradient Boosting) and contemporary approaches (Neural Networks), we find a correlation between writing style and period. We successfully build models to predict an author's birth year based on their text with an RMSE of around 50 years, meaningfully outperforming random guessing.
